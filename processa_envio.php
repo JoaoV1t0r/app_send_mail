@@ -60,7 +60,7 @@
 	    $mail->Port       = 587;                                    
 
 	    //Recipients
-	    $mail->setFrom(EMAIL, EMAIL_TITULO);
+	    $mail->setFrom(EMAIL, EMAIL_NOME);
 	    $mail->addAddress($mensagem->destino);
 	    
 	    // Content
